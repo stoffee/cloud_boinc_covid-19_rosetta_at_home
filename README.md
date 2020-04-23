@@ -3,6 +3,7 @@
 - Got some free credits you want to waste?<br>
 [Sign up for $300 in GCP credit](https://cloud.google.com/free)<br>
 [Sign up for $200 in Azure credit](https://azure.microsoft.com/en-us/free/)<br>
+[Sign up for $300 in Alicloud credit](https://www.alibabacloud.com/campaign/free-trial)<br>
 [Sign up for the free tier at AWS](https://aws.amazon.com/free/)<br>
 - Looking for a different way to GIVE this year?
 
