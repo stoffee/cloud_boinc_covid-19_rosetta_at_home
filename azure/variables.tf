@@ -1,3 +1,19 @@
+variable "subscription_id" {
+  default = ""
+}
+
+variable "client_id" {
+  default = ""
+}
+
+variable "client_secret" {
+  default = ""
+}
+
+variable "tenant_id" {
+  default = ""
+}
+
 variable "prefix" {
   description = "The Prefix used for all resources in this example"
   default     = "rosetta"
