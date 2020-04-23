@@ -29,12 +29,14 @@ resource "google_compute_instance" "default" {
   }
 
   metadata_startup_script = <<DOTHIS
-  sudo apt -y install boinc-client
+    sudo apt -y install boinc-client
     systemctl start boinc-client
-    sudo apt update && sudo apt install -y unzip jq dnsutils
+   # sudo apt update && sudo apt install -y unzip jq dnsutils
     sudo boinccmd --project_attach http://boinc.bakerlab.org/rosetta var.boinc_project_id
-    #sleep 10
-    #sudo boinccmd --project http://boinc.bakerlab.org/rosetta detach
+    sleep 10
+    sudo boinccmd --project http://boinc.bakerlab.org/rosetta detach
+    sleep 10
+    sudo boinccmd --project_attach http://boinc.bakerlab.org/rosetta var.boinc_project_id
   DOTHIS
 
   service_account {
