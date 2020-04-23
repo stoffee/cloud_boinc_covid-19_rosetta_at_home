@@ -39,7 +39,7 @@ resource "alicloud_instance" "website" {
   internet_max_bandwidth_out = 5
   security_groups            = [alicloud_security_group.sg.id]
   instance_name              = "tf_website"
-  password                   = var.password
+  key_name                   = var.key_name
 
   user_data = file("userdata.sh")
 }

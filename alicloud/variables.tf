@@ -7,11 +7,11 @@ variable "vswitch_cidr" {
 }
 
 variable "zone" {
-  default = "cn-beijing-a"
+  default = "us-west-1a"
 }
 
-variable "password" {
-  default = "Test123456"
+variable "key_name" {
+  default = "YourAlicloudSSHKeyName"
 }
 
 variable "image" {
@@ -19,7 +19,7 @@ variable "image" {
 }
 
 variable "ecs_type" {
-  default = "ecs.n4.large"
+  default = "ecs.e4.small"
 }
 
 variable "access_key" {
@@ -31,5 +31,5 @@ variable "secret_key" {
 }
 
 variable "region" {
-  default = "cn-beijing"
+  default = "us-west-1"
 }
