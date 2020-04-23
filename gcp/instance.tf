@@ -28,14 +28,14 @@ resource "google_compute_instance" "default" {
     Mission = "rosetta"
   }
 
-  #metadata_startup_script = "echo hello_umm_hello > /test.txt"
-  metadata_startup_script = <<SCRIPT
-    sudo apt update && sudo apt install -y unzip jq boinc-client dnsutils
-    sleep 12
-    systemctl restart boinc-client
-    sleep 20
+  metadata_startup_script = <<DOTHIS
+  sudo apt -y install boinc-client
+    systemctl start boinc-client
+    sudo apt update && sudo apt install -y unzip jq dnsutils
     sudo boinccmd --project_attach http://boinc.bakerlab.org/rosetta var.boinc_project_id
-  SCRIPT
+    #sleep 10
+    #sudo boinccmd --project http://boinc.bakerlab.org/rosetta detach
+  DOTHIS
 
   service_account {
     scopes = ["userinfo-email", "compute-ro", "storage-ro"]
