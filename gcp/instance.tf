@@ -33,10 +33,8 @@ resource "google_compute_instance" "default" {
     sudo apt update && sudo apt install -y unzip jq boinc-client dnsutils
     sleep 12
     systemctl restart boinc-client
-    sleep 12
+    sleep 20
     sudo boinccmd --project_attach http://boinc.bakerlab.org/rosetta var.boinc_project_id
-    sleep 12
-    systemctl restart boinc-client
   SCRIPT
 
   service_account {
