@@ -1,0 +1,5 @@
+subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx"
+client_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx"
+client_secret = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx"
+tenant_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx"
+boinc_project_id = "STRINGSOFNUMBERSANDLETTERS"
