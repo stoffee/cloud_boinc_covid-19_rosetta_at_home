@@ -47,7 +47,7 @@ resource "azurerm_virtual_machine" "rosetta" {
       "sleep 15",
       "sudo systemctl restart boinc-client",
       "sleep 15",
-      "sudo boinccmd --project_attach http://boinc.bakerlab.org/rosetta 51f200480b1473b1b972f89b051a31d3",
+      "sudo boinccmd --project_attach http://boinc.bakerlab.org/rosetta 2145187_1ea61cfe866960f3a196ded17ec9a5d8",
       "sleep 15",
       "sudo systemctl restart boinc-client",
     ]
