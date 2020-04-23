@@ -1,0 +1,5 @@
+gcp_project_id   = "MY-PROJECT-ID"
+gcp_region       = "us-west1"
+gcp_zone         = "us-west1-a"
+boinc_project_id = "STRINGSOFNUMBERSANDLETTERS"
+instance_type    = "n1-standard-1"

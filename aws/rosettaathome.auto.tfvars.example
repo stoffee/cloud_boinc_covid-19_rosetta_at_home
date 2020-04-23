@@ -1,0 +1,6 @@
+aws_access_key = "AKIAHUHUHHHHHUUUHUHHU"
+aws_secret_key = "UHHHUHHUHUHHHUHHUUUHHHHHHHUHHU"
+ssh_key_name = "id_rsa"
+aws_region = "us-west-1"
+boinc_project_id = "STRINGSOFNUMBERSANDLETTERS"
+instance_type = "t2.micro"
