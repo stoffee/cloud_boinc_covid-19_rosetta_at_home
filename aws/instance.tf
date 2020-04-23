@@ -25,7 +25,7 @@ resource "aws_instance" "rosettaathome" {
   tags = {
     Name = random_pet.server.id
     Owner = "chrisd"
-    TTL   = "24hrs"
+    TTL   = "24"
   }
   user_data = data.template_file.cloud-init.rendered
 }
