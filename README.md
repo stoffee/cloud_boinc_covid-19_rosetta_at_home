@@ -5,6 +5,8 @@
 [Sign up for $200 in Azure credit](https://azure.microsoft.com/en-us/free/)<br>
 [Sign up for $300 in Alicloud credit](https://www.alibabacloud.com/campaign/free-trial)<br>
 [Sign up for the free tier at AWS](https://aws.amazon.com/free/)<br>
+**Wise Owl Says   <(^.^)>**<br>
+**You must stop the instance before your free credits are expired if you don't want to get charged)**<br>
 - Bored at home and want to use free cloud credits to learn about terraform?
 
 ![COVID-19](https://dp9bxf2pat5uz.cloudfront.net/wp-content/uploads/CoVid-19_1080p_c_NW.jpg)
